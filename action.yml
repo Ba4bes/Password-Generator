@@ -1,4 +1,4 @@
-name: 'Password-Generator'
+name: '4bes-PasswordGenerator'
 description: 'Generates a complex password for lab/dev or temporary purposes'
 inputs:
   length: 
