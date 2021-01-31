@@ -1,4 +1,4 @@
-name: '4bes-PasswordGenerator'
+name: 'Strong Password Generator'
 description: 'Generates a complex password for lab/dev or temporary purposes'
 branding:
   icon: 'align-center'  
