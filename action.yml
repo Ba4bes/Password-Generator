@@ -1,0 +1,17 @@
+name: 'Generate-Password'
+description: 'Generates a complex password for lab/dev or temporary purposes'
+inputs:
+  length: 
+    description:  'the amount of characters in the password. Defaults to 24'
+    required: false
+    default: '24'
+outputs:
+  password:
+    description: "the password that was generated"
+    value: "${{ steps.passwordgenerator.outputs.password }}"
+runs:
+  using: "composite"
+  steps:
+    - id: passwordgenerator
+      run: ${{ github.action_path }}/New-Password.ps1 -length ${{ inputs.length }} 
+      shell: pwsh
