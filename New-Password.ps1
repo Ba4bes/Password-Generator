@@ -6,8 +6,6 @@
     It will than removes the similar characters (like I & l)
     .PARAMETER length
     The length of the password
-    .EXAMPLE
-    New-Password -format Custom
     .NOTES
     Written by Barbara Forbes
     @Ba4bes
