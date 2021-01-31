@@ -1,5 +1,8 @@
 name: '4bes-PasswordGenerator'
 description: 'Generates a complex password for lab/dev or temporary purposes'
+branding:
+  icon: 'align-center'  
+  color: 'blue'
 inputs:
   length: 
     description:  'the amount of characters in the password. Defaults to 24'
